@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: .75rem;
+  font-weight: normal;
+}
+
 .grey {
   color: #918E9B;
 }
@@ -56,7 +61,7 @@ nav {
 
 .card {
   width: 175px;
-  font-size: 12px;
+  font-size: .75rem;
 }
 
 .profile {

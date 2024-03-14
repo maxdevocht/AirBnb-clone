@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Navbar from './Navbar.jsx'
-import Hero from './Hero.jsx'
-import Card from './Card.jsx'
+import Navbar from '../components/Navbar.jsx'
+import Hero from '../components/Hero.jsx'
+import Card from '../components/Card.jsx'
 import './App.css'
 
 export default function App() {
