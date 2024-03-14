@@ -3,7 +3,16 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
+}
+
+.grey {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 nav {
@@ -28,19 +37,39 @@ nav {
   align-self: center;
 }
 
-.text {
-
-}
-
 .text h1 {
-  font-family: 'Poppins', sans-serif;
   font-size: 36px;
   margin-bottom: 16px;
 }
 
 .text p {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin-top: 0;
   width: 400px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.profile {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.star {
+  height: 14px;
 }
