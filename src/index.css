@@ -53,28 +53,45 @@ nav {
   width: 400px;
 }
 
-.cards {
+.cards-list {
   display: flex;
-  align-items: center;
+  flex-wrap: nowrap;
   padding: 20px;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .card {
   width: 175px;
-  font-size: .75rem;
+  font-size: 12px;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column; 
 }
 
-.profile {
+.card--image {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 9px;
 }
 
-.rate {
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
   display: flex;
   align-items: center;
   gap: 3px;
 }
 
-.star {
+.card--star {
   height: 14px;
+}
+
+
+.card--price {
+  margin-top: auto;
 }
