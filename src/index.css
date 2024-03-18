@@ -62,6 +62,7 @@ nav {
 }
 
 .card {
+  position: relative;
   width: 175px;
   font-size: 12px;
   flex: 0 0 auto;         
@@ -74,7 +75,6 @@ nav {
   border-radius: 9px;
   margin-bottom: 9px;
 }
-
 
 .card--title {
   overflow: hidden;
@@ -91,7 +91,18 @@ nav {
   height: 14px;
 }
 
-
 .card--price {
   margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 5px 7px;
+  border-radius: 4.5px;
+  font-weight: bold;
 }
