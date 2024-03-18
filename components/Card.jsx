@@ -8,8 +8,8 @@ export default function Card(props) {
                 <div className="rate">
                     <img className='star' src="./images/star.png" alt="star" />
                     <span>{props.rating}</span>
-                    <span className='grey'>{props.reviewCount} • </span>
-                    <span className='grey'>{props.country}</span>
+                    <span className='grey'>({props.reviewCount}) • </span>
+                    <span className='grey'>{props.location}</span>
                 </div>
                 <h2 className="title">{props.title}</h2>
                 <p className="cost"><span className='bold'>From ${props.price}</span> / person</p>
