@@ -4,7 +4,7 @@ export default function Card(props) {
     return (
         <section className='cards'>
             <div className="card">
-                <img className='profile' src={props.img}alt="profile-img" />
+                <img className='profile' src={props.coverImg}alt="profile-img" />
                 <div className="rate">
                     <img className='star' src="./images/star.png" alt="star" />
                     <span>{props.rating}</span>
